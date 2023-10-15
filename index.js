@@ -9,8 +9,8 @@ function init() {
     .then(function(response){
         createSvg(response);
     })
-    .catch(function(error){
-        console.log(error);
+    .catch(function(err){
+        console.log(err);
     });
 }
 
